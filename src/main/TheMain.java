@@ -12,7 +12,7 @@ public class TheMain extends Application
     public void start(Stage primaryStage) throws Exception
     {
         Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Currency Converter");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }

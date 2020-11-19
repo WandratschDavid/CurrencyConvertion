@@ -17,9 +17,8 @@ public class TheMain extends Application
         primaryStage.show();
     }
 
-
     public static void main(String[] args)
     {
-        launch(args);
+        Application.launch(args);
     }
 }
